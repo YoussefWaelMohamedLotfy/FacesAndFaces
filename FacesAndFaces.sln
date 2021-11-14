@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Faces.Web", "Faces.Web", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faces.MVC", "Faces.Web\Faces.MVC\Faces.MVC.csproj", "{7CE41DA0-9893-4E2F-9C14-CE8915A4D160}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{0FA8CCE1-207A-45CF-8F04-3D8EE7DC9D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersApi", "Ordering\OrdersApi\OrdersApi.csproj", "{E3A85530-9DAE-4396-B61A-CD80CDD7BA76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{7CE41DA0-9893-4E2F-9C14-CE8915A4D160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE41DA0-9893-4E2F-9C14-CE8915A4D160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE41DA0-9893-4E2F-9C14-CE8915A4D160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A85530-9DAE-4396-B61A-CD80CDD7BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A85530-9DAE-4396-B61A-CD80CDD7BA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A85530-9DAE-4396-B61A-CD80CDD7BA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A85530-9DAE-4396-B61A-CD80CDD7BA76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{D7518314-3C30-4FD5-93FA-1AA4376103BD} = {638B3F7A-C53E-4BBB-8D72-F6BA2A22895B}
 		{8BE05D1C-50E6-49EF-A643-6612FCD964C0} = {7B5FA8A6-93C4-4450-A08D-3BD20D64BEE6}
 		{7CE41DA0-9893-4E2F-9C14-CE8915A4D160} = {E7593186-80FC-452F-A2E6-005E91E97F91}
+		{E3A85530-9DAE-4396-B61A-CD80CDD7BA76} = {0FA8CCE1-207A-45CF-8F04-3D8EE7DC9D81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEA8E5AC-D4EF-4DA3-B78F-1328BBEE2A51}
